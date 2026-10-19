@@ -1,0 +1,23 @@
+# Local lab settings (broker address, topics) - never upload
+settings.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Training outputs and YOLO caches
+runs/
+*.cache
+
+# Weights that Ultralytics downloads automatically into the main folder
+/*.pt
+
+# Archives
+*.rar
+*.zip

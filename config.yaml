@@ -1,0 +1,17 @@
+#dir path (relative to this repository folder)
+path: dataset
+# folders inside dir
+train: images/train
+val: images/test
+#class names
+names:
+  0: WSB
+  1: BRW
+  2: WRB
+  3: BSW
+  4: WRW
+  5: WSW
+  6: BRB
+  7: BSB
+  8: defective_no_cylinder
+  9: defective_no_top

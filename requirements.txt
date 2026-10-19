@@ -1,0 +1,12 @@
+# Python 3.12 was used for this project.
+#
+# For GPU (cuda) install PyTorch with CUDA first, for example:
+#   pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu129
+# (see https://pytorch.org/get-started/locally/ for other CUDA versions)
+# Then:
+#   pip install -r requirements.txt
+
+ultralytics==8.3.191
+opencv-python==4.12.0.88
+paho-mqtt==2.1.0
+PyYAML>=6.0

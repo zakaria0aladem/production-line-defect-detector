@@ -1,0 +1,24 @@
+# Copy this file to settings.yaml and fill in your own values.
+# settings.yaml is ignored by git, so the real network details stay on your computer only.
+
+mqtt:
+  client_id: "Defect Detector"
+  broker: "YOUR_BROKER_ADDRESS"
+  port: 1883
+  topics:
+    top: "YOUR/TOP/TOPIC"                    # top part colour (1 = W, 2 = B)
+    bottom: "YOUR/BOTTOM/TOPIC"              # bottom part colour (1 = W, 2 = B)
+    bolt: "YOUR/BOLT/TOPIC"                  # bolt type (1 = S, 2 = R, 0 = null)
+    robot_sequence: "YOUR/ROBOT/SEQUENCE/TOPIC"
+    command: "YOUR/COMMAND/TOPIC"            # where ACC / REJ is published
+  robot_ready_value: 0                       # robot sequence value that means "ready"
+
+camera: 0              # camera index
+device: cuda           # GPU; if you want to change to cpu, write: cpu
+model: weights/best22.pt
+conf: 0.5              # confidence threshold
+
+timing:
+  action_delay: 5      # minimum time between commands to avoid spamming
+  check_delay: 2       # wait this many seconds after robot ready for product to settle
+  display_duration: 3  # how long to display ACC/REJ banner (seconds)
