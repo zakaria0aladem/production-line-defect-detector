@@ -10,6 +10,14 @@ The defect detection system is designed to automate post-production quality insp
 
 The system only captures and processes images **after a product is fully assembled** and the robot indicates a **ready state**. Each product component such as top, bolt, and bottom is identified and combined to form a unique product code. The detected product is then compared with the expected configuration. Based on this comparison, the system automatically sends a command to **accept** the product if it meets the specifications or **reject** it if a defect is detected.
 
+## Demo
+
+<p align="center">
+  <a href="docs/demo.mp4"><img src="docs/demo.gif" width="560" alt="Defect detector demo: ACC for a correct product, REJ for a missing cylinder"></a>
+</p>
+
+The robot places the product, the system detects it and compares it with the expected product: a correct **WRW** gets **ACC**, and a product with a missing cylinder gets **REJ**. Click the GIF for the [full video](docs/demo.mp4).
+
 ## Contents
 
 - [1. System Overview](#1-system-overview)
