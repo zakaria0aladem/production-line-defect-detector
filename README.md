@@ -13,7 +13,7 @@ The system only captures and processes images **after a product is fully assembl
 ## Demo
 
 <p align="center">
-  <a href="docs/demo.mp4"><img src="docs/demo.gif" width="560" alt="Defect detector demo: ACC for a correct product, REJ for a missing cylinder"></a>
+  <a href="docs/demo.mp4"><img src="docs/demo.gif" width="640" alt="Defect detector demo: ACC for a correct product, REJ for a missing cylinder"></a>
 </p>
 
 The robot places the product, the system detects it and compares it with the expected product: a correct **WRW** gets **ACC**, and a product with a missing cylinder gets **REJ**. Click the GIF for the [full video](docs/demo.mp4).
