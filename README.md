@@ -18,6 +18,11 @@ The system only captures and processes images **after a product is fully assembl
 
 The robot places the product, the system detects it and compares it with the expected product: a correct **WRW** gets **ACC**, and a product with a missing cylinder gets **REJ**. Click the GIF for the [full video](docs/demo.mp4).
 
+
+https://github.com/user-attachments/assets/9da540e6-4c54-4c17-818c-5423f5807e7e
+
+
+
 ## Contents
 
 - [1. System Overview](#1-system-overview)
